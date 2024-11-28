@@ -1,0 +1,17 @@
+{
+  "name": "BanRemovalByWords",
+  "version": "1.0.0",
+  "description": "A Discord bot that scans and removes bans based on specified criteria.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "yaml": "^1.10.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
+}
