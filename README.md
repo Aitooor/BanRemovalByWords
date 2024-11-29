@@ -1,11 +1,11 @@
-# Discord Bot for Managing Ban List
+# BanRemovalByWords
 
 This project is a Discord bot designed to scan through a guild's ban list and remove bans based on specific criteria. It checks usernames and nicknames against a list of prohibited words and unbans users accordingly. The bot is built using JavaScript and the discord.js library.
 
 ## Project Structure
 
 ```
-discord-bot
+BanRemovalByWords
 ├── src
 │   ├── index.js          # Main entry point of the Discord bot
 │   ├── utils
@@ -22,7 +22,7 @@ discord-bot
 1. **Clone the repository:**
    ```
    git clone <repository-url>
-   cd discord-bot
+   cd BanRemovalByWords
    ```
 
 2. **Install dependencies:**
@@ -39,6 +39,10 @@ discord-bot
 5. **Run the bot:**
    ```
    node src/index.js
+   ```
+   Or use:
+   ```
+   npm start
    ```
 
 ## Usage
